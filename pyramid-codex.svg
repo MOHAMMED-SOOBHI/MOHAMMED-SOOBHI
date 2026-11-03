@@ -1,176 +1,177 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="100%" height="100%">
-  <defs>
-    <!-- Sky & Desert Gradients -->
-    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#030201"/>
-      <stop offset="55%" stop-color="#120c06"/>
-      <stop offset="100%" stop-color="#291b0c"/>
-    </linearGradient>
+<defs>
+<!-- Sky & Desert Gradients -->
+<linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#030201"/>
+<stop offset="55%" stop-color="#120c06"/>
+<stop offset="100%" stop-color="#291b0c"/>
+</linearGradient>
 
-    <linearGradient id="goldGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8B682A"/>
-      <stop offset="50%" stop-color="#FFF4CC"/>
-      <stop offset="100%" stop-color="#C99532"/>
-    </linearGradient>
+<linearGradient id="goldGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#8B682A"/>
+<stop offset="50%" stop-color="#FFF4CC"/>
+<stop offset="100%" stop-color="#C99532"/>
+</linearGradient>
 
-    <linearGradient id="pyrLight" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#E5B85B"/>
-      <stop offset="50%" stop-color="#B38028"/>
-      <stop offset="100%" stop-color="#5E4010"/>
-    </linearGradient>
+<linearGradient id="pyrLight" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#E5B85B"/>
+<stop offset="50%" stop-color="#B38028"/>
+<stop offset="100%" stop-color="#5E4010"/>
+</linearGradient>
 
-    <linearGradient id="pyrDark" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#4A320D"/>
-      <stop offset="100%" stop-color="#1A1104"/>
-    </linearGradient>
+<linearGradient id="pyrDark" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#4A320D"/>
+<stop offset="100%" stop-color="#1A1104"/>
+</linearGradient>
 
-    <!-- Magical Golden Glow Filter -->
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="6" result="blur1"/>
-      <feGaussianBlur stdDeviation="14" result="blur2"/>
-      <feMerge>
-        <feMergeNode in="blur2"/>
-        <feMergeNode in="blur1"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+<!-- Magical Golden Glow Filter -->
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+<feGaussianBlur stdDeviation="6" result="blur1"/>
+<feGaussianBlur stdDeviation="14" result="blur2"/>
+<feMerge>
+<feMergeNode in="blur2"/>
+<feMergeNode in="blur1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
 
-    <style>
-      .bg { fill: url(#sky); }
-      
-      /* Twinkling Stars */
-      .star { fill: #FFF4CC; animation: twinkle 3s infinite ease-in-out alternate; }
-      .s1 { animation-delay: 0.2s; }
-      .s2 { animation-delay: 1.1s; }
-      .s3 { animation-delay: 2.3s; }
-      @keyframes twinkle {
-        0% { opacity: 0.15; transform: scale(0.8); }
-        100% { opacity: 1; transform: scale(1.3); }
-      }
+<style>
+.bg { fill: url(#sky); }
 
-      /* Pyramids Rising & Wireframe Drawing */
-      .pyr-left, .pyr-center, .pyr-right {
-        stroke: #FFD700;
-        stroke-width: 2;
-        stroke-dasharray: 1200;
-        stroke-dashoffset: 1200;
-        opacity: 0;
-      }
-      .pyr-left { animation: risePyr 2.2s cubic-bezier(0.2, 0.8, 0.2, 1) 0.3s forwards; }
-      .pyr-center { animation: risePyr 2.5s cubic-bezier(0.2, 0.8, 0.2, 1) 0.9s forwards; }
-      .pyr-right { animation: risePyr 2.2s cubic-bezier(0.2, 0.8, 0.2, 1) 1.5s forwards; }
+/* Twinkling Stars */
+.star { fill: #FFF4CC; animation: twinkle 3s infinite ease-in-out alternate; }
+.s1 { animation-delay: 0.2s; }
+.s2 { animation-delay: 1.1s; }
+.s3 { animation-delay: 2.3s; }
+@keyframes twinkle {
+0% { opacity: 0.15; transform: scale(0.8); }
+100% { opacity: 1; transform: scale(1.3); }
+}
 
-      @keyframes risePyr {
-        0% { stroke-dashoffset: 1200; opacity: 0; transform: translateY(40px); }
-        50% { opacity: 1; }
-        100% { stroke-dashoffset: 0; opacity: 1; transform: translateY(0); }
-      }
+/* Pyramids Rising & Wireframe Drawing */
+.pyr-left, .pyr-center, .pyr-right {
+stroke: #FFD700;
+stroke-width: 2;
+stroke-dasharray: 1200;
+stroke-dashoffset: 1200;
+opacity: 0;
+}
+.pyr-left { animation: risePyr 2.2s cubic-bezier(0.2, 0.8, 0.2, 1) 0.3s forwards; }
+.pyr-center { animation: risePyr 2.5s cubic-bezier(0.2, 0.8, 0.2, 1) 0.9s forwards; }
+.pyr-right { animation: risePyr 2.2s cubic-bezier(0.2, 0.8, 0.2, 1) 1.5s forwards; }
 
-      /* Carving Name Animation */
-      .carve-title {
-        font-family: 'Cinzel', 'Times New Roman', Georgia, serif;
-        font-size: 68px;
-        font-weight: 900;
-        font-style: italic;
-        letter-spacing: 10px;
-        fill: transparent;
-        stroke: url(#goldGlow);
-        stroke-width: 2.5;
-        stroke-dasharray: 900;
-        stroke-dashoffset: 900;
-        filter: url(#glow);
-        animation: carveText 3.8s ease-in-out 2.8s forwards, pulseGlow 3s ease-in-out 6.6s infinite alternate;
-      }
+@keyframes risePyr {
+0% { stroke-dashoffset: 1200; opacity: 0; transform: translateY(40px); }
+50% { opacity: 1; }
+100% { stroke-dashoffset: 0; opacity: 1; transform: translateY(0); }
+}
 
-      .carve-sub {
-        font-family: 'Cinzel', 'Times New Roman', Georgia, serif;
-        font-size: 20px;
-        font-weight: 700;
-        font-style: italic;
-        letter-spacing: 14px;
-        fill: #D9AD51;
-        opacity: 0;
-        animation: fadeSub 2s ease-out 5.2s forwards;
-      }
+/* Carving Name Animation */
+.carve-title {
+font-family: 'Cinzel', 'Times New Roman', Georgia, serif;
+font-size: 68px;
+font-weight: 900;
+font-style: italic;
+letter-spacing: 10px;
+fill: transparent;
+stroke: url(#goldGlow);
+stroke-width: 2.5;
+stroke-dasharray: 900;
+stroke-dashoffset: 900;
+filter: url(#glow);
+animation: carveText 3.8s ease-in-out 2.8s forwards, pulseGlow 3s ease-in-out 6.6s infinite alternate;
+}
 
-      @keyframes carveText {
-        0% { stroke-dashoffset: 900; fill: rgba(212, 175, 55, 0); }
-        70% { stroke-dashoffset: 0; fill: rgba(212, 175, 55, 0.1); }
-        100% { stroke-dashoffset: 0; fill: #FFF4CC; }
-      }
+.carve-sub {
+font-family: 'Cinzel', 'Times New Roman', Georgia, serif;
+font-size: 20px;
+font-weight: 700;
+font-style: italic;
+letter-spacing: 14px;
+fill: #D9AD51;
+opacity: 0;
+animation: fadeSub 2s ease-out 5.2s forwards;
+}
 
-      @keyframes pulseGlow {
-        0% { filter: drop-shadow(0 0 6px #C99532); }
-        100% { filter: drop-shadow(0 0 22px #FFD700); }
-      }
+@keyframes carveText {
+0% { stroke-dashoffset: 900; fill: rgba(212, 175, 55, 0); }
+70% { stroke-dashoffset: 0; fill: rgba(212, 175, 55, 0.1); }
+100% { stroke-dashoffset: 0; fill: #FFF4CC; }
+}
 
-      @keyframes fadeSub {
-        0% { opacity: 0; transform: translateY(15px); }
-        100% { opacity: 0.95; transform: translateY(0); }
-      }
-[3 Nov 2026 5:18 pm] MOHAMED SOBHI: /* Eye of Horus / Apex Energy Beam */
-      .energy-ring {
-        fill: none;
-        stroke: #FFD700;
-        stroke-width: 1.5;
-        opacity: 0;
-        transform-origin: 600px 105px;
-        animation: ringPulse 4s ease-out 3.5s infinite;
-      }
-      @keyframes ringPulse {
-        0% { transform: scale(0.2); opacity: 0.9; }
-        100% { transform: scale(3.5); opacity: 0; }
-      }
-    </style>
-  </defs>
+@keyframes pulseGlow {
+0% { filter: drop-shadow(0 0 6px #C99532); }
+100% { filter: drop-shadow(0 0 22px #FFD700); }
+}
 
-  <!-- Night Desert Sky -->
-  <rect class="bg" width="1200" height="520"/>
+@keyframes fadeSub {
+0% { opacity: 0; transform: translateY(15px); }
+100% { opacity: 0.95; transform: translateY(0); }
+}
 
-  <!-- Stars -->
-  <circle class="star s1" cx="120" cy="70" r="1.8"/>
-  <circle class="star s2" cx="280" cy="45" r="2.2"/>
-  <circle class="star s3" cx="420" cy="95" r="1.5"/>
-  <circle class="star s1" cx="600" cy="35" r="2.5"/>
-  <circle class="star s2" cx="780" cy="80" r="1.7"/>
-  <circle class="star s3" cx="950" cy="50" r="2.3"/>
-  <circle class="star s1" cx="1080" cy="90" r="1.9"/>
-  <circle class="star s2" cx="190" cy="150" r="1.4"/>
-  <circle class="star s3" cx="1020" cy="145" r="1.6"/>
+/* Eye of Horus / Apex Energy Beam */
+.energy-ring {
+fill: none;
+stroke: #FFD700;
+stroke-width: 1.5;
+opacity: 0;
+transform-origin: 600px 105px;
+animation: ringPulse 4s ease-out 3.5s infinite;
+}
+@keyframes ringPulse {
+0% { transform: scale(0.2); opacity: 0.9; }
+100% { transform: scale(3.5); opacity: 0; }
+}
+</style>
+</defs>
 
-  <!-- Horizon Golden Aura -->
-  <ellipse cx="600" cy="440" rx="550" ry="90" fill="#C99532" opacity="0.18" filter="url(#glow)"/>
+<!-- Night Desert Sky -->
+<rect class="bg" width="1200" height="520"/>
 
-  <!-- Energy Rings from Center Pyramid Apex -->
-  <circle class="energy-ring" cx="600" cy="105" r="45"/>
+<!-- Stars -->
+<circle class="star s1" cx="120" cy="70" r="1.8"/>
+<circle class="star s2" cx="280" cy="45" r="2.2"/>
+<circle class="star s3" cx="420" cy="95" r="1.5"/>
+<circle class="star s1" cx="600" cy="35" r="2.5"/>
+<circle class="star s2" cx="780" cy="80" r="1.7"/>
+<circle class="star s3" cx="950" cy="50" r="2.3"/>
+<circle class="star s1" cx="1080" cy="90" r="1.9"/>
+<circle class="star s2" cx="190" cy="150" r="1.4"/>
+<circle class="star s3" cx="1020" cy="145" r="1.6"/>
 
-  <!-- LEFT PYRAMID (KHUFU) -->
-  <g class="pyr-left">
-    <polygon points="260,165 90,425 260,425" fill="url(#pyrLight)"/>
-    <polygon points="260,165 260,425 430,425" fill="url(#pyrDark)"/>
-  </g>
+<!-- Horizon Golden Aura -->
+<ellipse cx="600" cy="440" rx="550" ry="90" fill="#C99532" opacity="0.18" filter="url(#glow)"/>
 
-  <!-- RIGHT PYRAMID (MENKAURE) -->
-  <g class="pyr-right">
-    <polygon points="940,185 790,425 940,425" fill="url(#pyrLight)"/>
-    <polygon points="940,185 940,425 1090,425" fill="url(#pyrDark)"/>
-  </g>
+<!-- Energy Rings from Center Pyramid Apex -->
+<circle class="energy-ring" cx="600" cy="105" r="45"/>
 
-  <!-- CENTER GREAT PYRAMID (KHAFRE) -->
-  <g class="pyr-center">
-    <polygon points="600,105 360,435 600,435" fill="url(#pyrLight)"/>
-    <polygon points="600,105 600,435 840,435" fill="url(#pyrDark)"/>
-    <!-- Golden Capstone (Pyramidion) -->
-    <polygon points="600,105 565,153 600,153" fill="#FFF4CC" filter="url(#glow)"/>
-    <polygon points="600,105 600,153 635,153" fill="#D4AF37" filter="url(#glow)"/>
-  </g>
+<!-- LEFT PYRAMID (KHUFU) -->
+<g class="pyr-left">
+<polygon points="260,165 90,425 260,425" fill="url(#pyrLight)"/>
+<polygon points="260,165 260,425 430,425" fill="url(#pyrDark)"/>
+</g>
 
-  <!-- Desert Dunes Foreground -->
-  <path d="M0,425 Q300,395 600,425 T1200,415 L1200,520 L0,520 Z" fill="#0d0904"/>
-  <path d="M0,445 Q400,420 800,445 T1200,435 L1200,520 L0,520 Z" fill="#060402"/>
-  <line x1="100" y1="440" x2="1100" y2="440" stroke="url(#goldGlow)" stroke-width="1.5" opacity="0.6"/>
+<!-- RIGHT PYRAMID (MENKAURE) -->
+<g class="pyr-right">
+<polygon points="940,185 790,425 940,425" fill="url(#pyrLight)"/>
+<polygon points="940,185 940,425 1090,425" fill="url(#pyrDark)"/>
+</g>
 
-  <!-- CARVED NAME ACROSS THE THREE PYRAMIDS -->
-  <text x="600" y="345" text-anchor="middle" class="carve-title">MOHAMED SOBHI</text>
-  <text x="600" y="485" text-anchor="middle" class="carve-sub">𓂀 THE ARCHITECT OF DIGITAL MONUMENTS 𓂀</text>
+<!-- CENTER GREAT PYRAMID (KHAFRE) -->
+<g class="pyr-center">
+<polygon points="600,105 360,435 600,435" fill="url(#pyrLight)"/>
+<polygon points="600,105 600,435 840,435" fill="url(#pyrDark)"/>
+<!-- Golden Capstone (Pyramidion) -->
+<polygon points="600,105 565,153 600,153" fill="#FFF4CC" filter="url(#glow)"/>
+<polygon points="600,105 600,153 635,153" fill="#D4AF37" filter="url(#glow)"/>
+</g>
+
+<!-- Desert Dunes Foreground -->
+<path d="M0,425 Q300,395 600,425 T1200,415 L1200,520 L0,520 Z" fill="#0d0904"/>
+<path d="M0,445 Q400,420 800,445 T1200,435 L1200,520 L0,520 Z" fill="#060402"/>
+<line x1="100" y1="440" x2="1100" y2="440" stroke="url(#goldGlow)" stroke-width="1.5" opacity="0.6"/>
+
+<!-- CARVED NAME ACROSS THE THREE PYRAMIDS -->
+<text x="600" y="345" text-anchor="middle" class="carve-title">MOHAMED SOBHI</text>
+<text x="600" y="485" text-anchor="middle" class="carve-sub">𓂀 THE ARCHITECT OF DIGITAL MONUMENTS 𓂀</text>
 </svg>
