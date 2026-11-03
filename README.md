@@ -1,71 +1,174 @@
-[3 Nov 2026 1:59 pm] MOHAMED SOBHI: <!-- ===================================================== -->
-<!--          MOHAMMED SOBHI | GITHUB PROFILE README       -->
-<!-- ===================================================== -->
+ MOHAMED SOBHI: <!-- ======================================================= -->
+<!--        MOHAMED SOBHI | THE PYRAMID CODEX PROFILE        -->
+<!-- ======================================================= -->
 
 <div align="center">
 
 <img
   width="100%"
-  src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5FF,45:7C3AED,100:FF007A&height=240&section=header&text=MOHAMMED%20SOBHI&fontSize=55&fontColor=FFFFFF&fontAlignY=36&animation=fadeIn&desc=Computer%20Science%20Student%20%7C%20Software%20Developer%20%7C%20Problem%20Solver&descSize=17&descAlignY=58"
-  alt="Mohammed Sobhi Header"
+  src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:030303,25:15100A,50:C99532,75:15100A,100:030303&text=MOHAMED%20SOBHI&fontColor=FFF4CC&fontSize=58&fontAlignY=37&desc=THE%20ARCHITECT%20OF%20THE%20DIGITAL%20PYRAMIDS&descAlignY=60&descSize=16&animation=fadeIn"
+  alt="Mohamed Sobhi Header"
 />
 
 <img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=25&pause=1000&color=00F5FF&center=true&vCenter=true&width=800&lines=Hello%2C+I'm+Mohammed+Sobhi+%F0%9F%91%8B;C%2B%2B+%7C+Python+%7C+JavaScript;Building+Powerful+Software+Projects;Code.+Compete.+Build.+Evolve.;Welcome+to+my+Digital+World+%E2%9A%A1"
-  alt="Typing Animation"
+  src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=900&size=25&duration=2600&pause=700&color=D9AD51&center=true&vCenter=true&repeat=true&width=900&height=80&lines=WELCOME+TO+THE+FORBIDDEN+CODEX;THREE+PYRAMIDS.+ONE+DIGITAL+ARCHITECT.;C%2B%2B+%7C+JAVA+%7C+JAVASCRIPT+%7C+PYTHON;I+DO+NOT+JUST+WRITE+CODE...+I+BUILD+WORLDS."
+  alt="Animated Introduction"
 />
 
-<br/><br/>
-
-<a href="https://github.com/MOHAMMED-SOOBHI">
-  <img
-    src="https://img.shields.io/badge/GITHUB-MOHAMMED--SOOBHI-181717?style=for-the-badge&logo=github&logoColor=white"
-    alt="GitHub"
-  />
-</a>
+<br>
 
 <img
-  src="https://komarev.com/ghpvc/?username=MOHAMMED-SOOBHI&label=PROFILE+VIEWS&color=7C3AED&style=for-the-badge"
+  src="https://komarev.com/ghpvc/?username=MOHAMMED-SOOBHI&label=TOMB%20VISITORS&color=C99532&style=for-the-badge"
   alt="Profile Views"
 />
 
 <img
-  src="https://img.shields.io/github/followers/MOHAMMED-SOOBHI?label=FOLLOWERS&style=for-the-badge&color=00BFFF&logo=github"
-  alt="Followers"
+  src="https://img.shields.io/github/followers/MOHAMMED-SOOBHI?label=CODEX%20FOLLOWERS&style=for-the-badge&color=C99532&labelColor=080604"
+  alt="GitHub Followers"
 />
 
 </div>
 
-<br/>
+<br>
 
 <div align="center">
 
-## ⚡ About Me
+# 𓉴               𓉴               𓉴
+
+<pre>
+                         /\                              /\                              /\
+                        /  \                            /  \                            /  \
+                       /𓂀  \                          /𓋹  \                          /𓆣  \
+                      /      \                        /      \                        /      \
+                     / KHUFU  \                      / KHAFRE \                      / MENKAURE\
+                    /__\                    /__\                    /__\
+               THE FORCE OF CREATION          THE FORCE OF VISION           THE FORCE OF PRECISION
+</pre>
+
+# M O H A M E D   S O B H I
+
+### 𓂀 THE NAME CARVED BEHIND THE THREE PYRAMIDS 𓂀
+
+> Forged in Egypt. Built through code. Designed to outlive time.
+
+</div>
+
+---
+
+<div align="center">
+
+## 𓂀 THE ARCHITECT OF THE CODEX 𓂀
+
+</div>
+
+#include <iostream>
+#include <vector>
+#include <string>
+
+class DigitalArchitect {
+private:
+    std::string name = "MOHAMED SOBHI";
+    std::string origin = "EGYPT";
+    std::string mission = "BUILD DIGITAL MONUMENTS";
+
+public:
+    std::vector<std::string> languages = {
+        "C++",
+        "Java",
+        "JavaScript",
+        "Python"
+    };
+
+    std::vector<std::string> powers = {
+        "Creative Development",
+        "Problem Solving",
+        "UI/UX Design",
+        "Software Architecture",
+        "Cinematic Web Experiences"
+    };
+
+    void awakenTheCodex() {
+        std::cout
+            << "The ancient walls are breaking..." << std::endl
+            << "The hieroglyphs are glowing..." << std::endl
+            << name << " has entered the digital tomb."
+            << std::endl;
+    }
+};
+
+int main() {
+    DigitalArchitect MohamedSobhi;
+    MohamedSobhi.awakenTheCodex();
+
+    return 0;
+}
+<div align="center">
+
+### THE CODEX HAS BEEN AWAKENED
+
+</div>
+
+---
+
+<div align="center">
+
+# 𓉴 THE THREE MONUMENTS 𓉴
 
 <table>
 <tr>
 
-<td width="55%" align="left">
+<td width="33%" align="center">
 
-### Welcome to my digital world
+## 𓉴 KHUFU
 
-- 🎓 Computer Science Student
-- 💻 Software Development Enthusiast
-- ⚔️ Passionate about Problem Solving
-- 🧠 Learning Data Structures and Algorithms
-- 🔥 Building projects with C++, Python and JavaScript
-- 🚀 Improving my skills every day
-- 🎯 Future Professional Software Engineer
+### THE FORCE OF CREATION
+
+const creation = {
+    power: "UNLIMITED",
+    source: "IMAGINATION",
+    result: "DIGITAL MONUMENTS"
+};
+Ideas rise from dust and become immortal digital architecture.
+
+CREATE • BUILD • EVOLVE
 
 </td>
 
-<td width="45%" align="center">
+<td width="33%" align="center">
 
-<img
-  width="320"
-  src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"
-  alt="Developer Coding Animation"
-/>
+## 𓂀 KHAFRE
+
+### THE FORCE OF VISION
+
+class Vision:
+    def __init__(self):
+        self.limits = None
+        self.focus = "Future"
+
+    def see_beyond(self):
+        return "Impossible → Possible"
+Seeing beyond the visible and transforming imagination into reality.
+
+THINK • DESIGN • INSPIRE
+
+</td>
+
+<td width="33%" align="center">
+
+## 𓆣 MENKAURE
+
+### THE FORCE OF PRECISION
+[3 Nov 2026 4:53 pm] MOHAMED SOBHI: public class Precision {
+    String standard = "Mastery";
+    boolean acceptsAverage = false;
+
+    public String execute() {
+        return "Perfect Detail";
+    }
+}
+Every small detail is sharpened like obsidian to create monumental impact.
+
+FOCUS • IMPROVE • MASTER
 
 </td>
 
@@ -78,136 +181,55 @@
 
 <div align="center">
 
-## 🛡️ Tech Arsenal
+# 𓋹 PROGRAMMING ARSENAL 𓋹
 
-### Programming Languages
+## CORE LANGUAGES
 
 <img
-  src="https://skillicons.dev/icons?i=cpp,python,javascript&theme=dark"
-  alt="C++, Python and JavaScript"
+  src="https://skillicons.dev/icons?i=cpp,java,js,python,html,css&theme=dark&perline=6"
+  alt="Core Programming Languages"
 />
 
-<br/><br/>
+<br><br>
 
-### Web Technologies
+## FRONTEND AND CREATIVE TECHNOLOGIES
 
 <img
-  src="https://skillicons.dev/icons?i=html,css,js&theme=dark"
-  alt="HTML, CSS and JavaScript"
+  src="https://skillicons.dev/icons?i=react,vite,tailwind,bootstrap,threejs,nodejs&theme=dark&perline=6"
+  alt="Frontend Technologies"
 />
 
-<br/><br/>
+<br><br>
 
-### Development Tools
+## DEVELOPMENT TOOLS
 
 <img
-  src="https://skillicons.dev/icons?i=git,github,vscode,visualstudio,pycharm&theme=dark"
+  src="https://skillicons.dev/icons?i=git,github,vscode,visualstudio,figma&theme=dark&perline=5"
   alt="Development Tools"
 />
 
-<br/><br/>
-
-### Operating Systems
+<br><br>
 
 <img
-  src="https://skillicons.dev/icons?i=windows,linux&theme=dark"
-  alt="Windows and Linux"
-/>
-
-</div>
-
----
-
-<div align="center">
-
-## 🎯 Current Mission
-
-<img src="https://img.shields.io/badge/C%2B%2B-LEARNING-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-<img src="https://img.shields.io/badge/PYTHON-BUILDING-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/JAVASCRIPT-EXPLORING-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/DATA%20STRUCTURES-LEARNING-00F5FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/ALGORITHMS-PRACTICING-7C3AED?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/PROBLEM%20SOLVING-IMPROVING-FF007A?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/PROJECTS-BUILDING-22C55E?style=for-the-badge"/>
-
-</div>
-
----
-
-<div align="center">
-
-## 💻 Languages and Tools
-
-<img
-  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
-  width="55"
-  height="55"
+  src="https://img.shields.io/badge/C%2B%2B-ANCIENT%20POWER-C99532?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=080604"
   alt="C++"
 />
 
-&nbsp;&nbsp;&nbsp;
-
 <img
-  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-  width="55"
-  height="55"
-  alt="Python"
+  src="https://img.shields.io/badge/JAVA-SOLID%20ARCHITECTURE-C99532?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=080604"
+  alt="Java"
 />
 
-&nbsp;&nbsp;&nbsp;
+<br><br>
 
 <img
-  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-  width="55"
-  height="55"
+  src="https://img.shields.io/badge/JAVASCRIPT-DIGITAL%20MAGIC-C99532?style=for-the-badge&logo=javascript&logoColor=white&labelColor=080604"
   alt="JavaScript"
 />
 
-&nbsp;&nbsp;&nbsp;
-[3 Nov 2026 1:59 pm] MOHAMED SOBHI: <img
-  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-  width="55"
-  height="55"
-  alt="HTML"
-/>
-
-&nbsp;&nbsp;&nbsp;
-
 <img
-  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-  width="55"
-  height="55"
-  alt="CSS"
-/>
-
-&nbsp;&nbsp;&nbsp;
-
-<img
-  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-  width="55"
-  height="55"
-  alt="Git"
-/>
-
-&nbsp;&nbsp;&nbsp;
-
-<img
-  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-  width="55"
-  height="55"
-  alt="GitHub"
-/>
-
-&nbsp;&nbsp;&nbsp;
-
-<img
-  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
-  width="55"
-  height="55"
-  alt="Visual Studio Code"
+  src="https://img.shields.io/badge/PYTHON-INTELLIGENT%20SYSTEMS-C99532?style=for-the-badge&logo=python&logoColor=white&labelColor=080604"
+  alt="Python"
 />
 
 </div>
@@ -216,114 +238,26 @@
 
 <div align="center">
 
-## 🚀 Featured Projects
-
-</div>
-
-<table>
-<tr>
-
-<td width="50%" valign="top">
-
-### ⚔️ C++ Problem Solving
-
-A collection of C++ problems focused on logical thinking, algorithms and clean solutions.
-
-Technologies
-
-C++ STL Algorithms OOP
-
-https://github.com/MOHAMMED-SOOBHI/cpp-problem-solving
-
-</td>
-
-<td width="50%" valign="top">
-
-### 🐍 Python Projects
-
-Practical Python projects created to improve programming and software development skills.
-
-Technologies
-
-Python Automation Problem Solving
-
-https://github.com/MOHAMMED-SOOBHI/python-projects
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-### ⚡ JavaScript Projects
-
-Interactive web applications developed with JavaScript, HTML and CSS.
-
-Technologies
-
-JavaScript HTML CSS
-
-https://github.com/MOHAMMED-SOOBHI/javascript-projects
-
-</td>
-
-<td width="50%" valign="top">
-
-### 🧠 Data Structures and Algorithms
-
-Implementations of essential data structures and algorithms.
-
-Technologies
-
-C++ Python Algorithms
-
-https://github.com/MOHAMMED-SOOBHI/data-structures-and-algorithms
-
-</td>
-
-</tr>
-</table>
-
----
-
-<div align="center">
-
-## 📊 GitHub Performance
+# 𓂀 THE DIGITAL TOMB 𓂀
 
 <img
   width="49%"
-  src="https://github-readme-stats.vercel.app/api?username=MOHAMMED-SOOBHI&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15&include_all_commits=true&count_private=true"
-  alt="GitHub Statistics"
+  src="https://github-readme-stats.vercel.app/api?username=MOHAMMED-SOOBHI&show_icons=true&hide_border=false&border_radius=18&title_color=D9AD51&icon_color=D9AD51&text_color=F2E8CF&bg_color=080604&border_color=8B682A&rank_icon=github"
+  alt="Mohamed Sobhi GitHub Statistics"
 />
 
 <img
   width="49%"
-  src="https://streak-stats.demolab.com?user=MOHAMMED-SOOBHI&theme=tokyonight&hide_border=true&border_radius=15"
-  alt="GitHub Streak"
+  src="https://github-readme-streak-stats.herokuapp.com/?user=MOHAMMED-SOOBHI&hide_border=false&border_radius=18&background=080604&border=8B682A&stroke=D9AD51&ring=D9AD51&fire=FF7B00&currStreakNum=FFF4CC&sideNums=FFF4CC&currStreakLabel=D9AD51&sideLabels=D9AD51&dates=8E877A"
+  alt="Mohamed Sobhi GitHub Streak"
 />
 
-<br/><br/>
+<br><br>
 
 <img
-  width="48%"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=MOHAMMED-SOOBHI&layout=compact&theme=tokyonight&hide_border=true&border_radius=15&langs_count=8"
-  alt="Most Used Languages"
-/>
-
-</div>
-
----
-
-<div align="center">
-
-## 📈 Contribution Battlefield
-
-<img
-  width="100%"
-  src="https://github-readme-activity-graph.vercel.app/graph?username=MOHAMMED-SOOBHI&bg_color=0D1117&color=00F5FF&line=7C3AED&point=FF007A&area=true&hide_border=true"
-  alt="Contribution Activity Graph"
+  width="55%"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=MOHAMMED-SOOBHI&layout=compact&langs_count=10&hide_border=false&border_radius=18&title_color=D9AD51&text_color=F2E8CF&bg_color=080604&border_color=8B682A"
+  alt="Most Used Programming Languages"
 />
 
 </div>
@@ -332,11 +266,25 @@ https://github.com/MOHAMMED-SOOBHI/data-structures-and-algorithms
 
 <div align="center">
 
-## 🏆 GitHub Achievements
+# 𓆣 THE SCARAB OF ACTIVITY 𓆣
 
 <img
-  width="100%"
-  src="https://github-profile-trophy.vercel.app/?username=MOHAMMED-SOOBHI&theme=radical&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=6"
+  width="96%"
+  src="https://github-readme-activity-graph.vercel.app/graph?username=MOHAMMED-SOOBHI&bg_color=080604&color=D9AD51&line=C99532&point=FFF4CC&area=true&area_color=8B682A&hide_border=false&border_color=8B682A&radius=12"
+  alt="GitHub Contribution Graph"
+/>
+
+</div>
+
+---
+
+<div align="center">
+
+# 𓋹 THE HIEROGLYPHIC TROPHIES 𓋹
+
+<img
+  width="96%"
+  src="https://github-profile-trophy.vercel.app/?username=MOHAMMED-SOOBHI&theme=matrix&no-frame=false&no-bg=true&margin-w=10&margin-h=10&column=6"
   alt="GitHub Trophies"
 />
 
@@ -346,76 +294,136 @@ https://github.com/MOHAMMED-SOOBHI/data-structures-and-algorithms
 
 <div align="center">
 
-## 🐍 Contribution Snake
+# 𓂀 CURRENT MISSION 𓂀
 
-<img
-  width="100%"
-  src="https://raw.githubusercontent.com/MOHAMMED-SOOBHI/MOHAMMED-SOOBHI/output/github-contribution-grid-snake-dark.svg"
-  alt="Contribution Snake Animation"
-/>
+</div>
 
+missions = [
+    "Master C++ and object-oriented programming",
+    "Build powerful Java applications",
+    "Create cinematic JavaScript experiences",
+    "Develop intelligent systems with Python",
+    "Transform imagination into working software",
+    "Combine Egyptian identity with modern technology",
+    "Build projects that users will never forget"
+]
+
+for mission in missions:
+    print(f"𓂀 {mission}")
+
+print("The journey has only just begun.")
+<table>
+<tr>
+
+<td width="50%">
+
+### NOW LEARNING
+
+- Advanced C++ concepts
+- Java object-oriented programming
+- JavaScript interactions
+- Python development
+- Data structures and algorithms
+- Modern frontend architecture
+- UI and UX fundamentals
+
+</td>
+
+<td width="50%">
+
+### BUILDING
+[3 Nov 2026 4:53 pm] MOHAMED SOBHI: - Interactive web experiences
+- Creative programming projects
+- Responsive user interfaces
+- Software problem-solving projects
+- Cinematic portfolio concepts
+- GitHub open-source projects
+- Egyptian-inspired digital experiences
+
+</td>
+
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+# 𓉴 ARCHITECTURE OF MY MIND 𓉴
+
+MOHAMED-SOBHI/
+│
+├── 𓂀 Creative-Thinking/
+│   ├── Imagination.cpp
+│   ├── Innovation.java
+│   └── Vision.py
+│
+├── 𓉴 Software-Development/
+│   ├── C-Plus-Plus/
+│   ├── Java/
+│   ├── JavaScript/
+│   └── Python/
+│
+├── 𓋹 Digital-Experiences/
+│   ├── UI-UX/
+│   ├── Interactive-Websites/
+│   └── Cinematic-Animations/
+│
+└── 𓆣 Final-Mission/
+    └── Build-Something-Unforgettable.exe
 </div>
 
 ---
 
 <div align="center">
 
-## 🌐 Connect With Me
+# 𓋹 OPEN A CHANNEL TO THE CODEX 𓋹
 
-<a href="mailto:mohamed01098763@gmail.com">
+### Have an idea, a project, or a digital monument to build?
+
+<br>
+
+<a href="mailto:Mohamed01098763@gmail.com">
   <img
-    src="https://img.shields.io/badge/GMAIL-CONTACT%20ME-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
-    alt="Gmail"
+    src="https://img.shields.io/badge/GMAIL-Mohamed01098763%40gmail.com-C99532?style=for-the-badge&logo=gmail&logoColor=white&labelColor=080604"
+    alt="Mohamed Sobhi Gmail"
   />
 </a>
+
+<br><br>
 
 <a href="https://www.facebook.com/share/1HZKV3xsuy/">
   <img
-    src="https://img.shields.io/badge/FACEBOOK-CONNECT-1877F2?style=for-the-badge&logo=facebook&logoColor=white"
-    alt="Facebook"
+    src="https://img.shields.io/badge/FACEBOOK-ENTER%20THE%20SOCIAL%20CHAMBER-C99532?style=for-the-badge&logo=facebook&logoColor=white&labelColor=080604"
+    alt="Mohamed Sobhi Facebook"
   />
 </a>
+
+<br><br>
 
 <a href="https://github.com/MOHAMMED-SOOBHI">
   <img
-    src="https://img.shields.io/badge/GITHUB-FOLLOW%20ME-181717?style=for-the-badge&logo=github&logoColor=white"
-    alt="GitHub"
+    src="https://img.shields.io/badge/GITHUB-EXPLORE%20MY%20PROJECTS-C99532?style=for-the-badge&logo=github&logoColor=white&labelColor=080604"
+    alt="Mohamed Sobhi GitHub"
   />
 </a>
 
-<br/><br/>
+<br><br>
 
-📧 Email: mohamed01098763@gmail.com
+# I DO NOT WRITE ORDINARY CODE.
 
-</div>
+# I CARVE DIGITAL MONUMENTS.
 
----
+<br>
 
-<div align="center">
-[3 Nov 2026 1:59 pm] MOHAMED SOBHI: ## 🔥 Developer Journey
+### 𓂀 BUILD • EXPLORE • MASTER • EVOLVE 𓂀
 
-START
-  │
-  ▼
-LEARN ───► CODE ───► BUILD
-  ▲                    │
-  │                    ▼
-EVOLVE ◄── DEBUG ◄── FAIL
-### CODE • COMPETE • BUILD • EVOLVE
-
-<br/>
-
-<img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1000&color=FF007A&center=true&vCenter=true&width=700&lines=Turning+Ideas+Into+Code;Turning+Problems+Into+Solutions;One+Commit+Closer+To+The+Goal"
-  alt="Developer Quote Animation"
-/>
-
-<br/>
+<br>
 
 <img
   width="100%"
-  src="https://capsule-render.vercel.app/api?type=waving&color=0:FF007A,50:7C3AED,100:00F5FF&height=150&section=footer"
-  alt="Footer"
+  src="https://capsule-render.vercel.app/api?type=waving&height=180&section=footer&color=0:030303,25:15100A,50:C99532,75:15100A,100:030303"
+  alt="Pyramid Codex Footer"
 />
 
 </div>
